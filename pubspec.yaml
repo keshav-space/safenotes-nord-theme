@@ -1,11 +1,11 @@
-name: flutter_nord_theme
+name: safenotes_nord_theme
 description: An arctic, north-bluish theme for Flutter, based on the Nord theme.
-version: 2.1.0
-repository: https://github.com/Firefnix/flutter-nord-theme
+version: 3.0.0
+repository: https://github.com/keshav-space/safenotes-nord-theme
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
-  flutter: '>=1.17.0'
+  flutter: '>=2.0.0'
 
 dependencies:
   flutter:
