@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_nord_theme/flutter_nord_theme.dart';
+import 'package:safenotes_nord_theme/safenotes_nord_theme.dart';
 
 import 'theme.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_nord_theme/flutter_nord_theme.dart';
+import 'package:safenotes_nord_theme/safenotes_nord_theme.dart';
 import 'light.dart';
 
 /// This class describes the role of each color.
@@ -22,9 +22,9 @@ abstract class NordColorRoles {
   /// in theory, all the other [ThemeData] properties are just overrides.
   ColorScheme get colorScheme => ColorScheme(
         primary: primary,
-        primaryVariant: primary,
+        primaryContainer: primary,
         secondary: secondary,
-        secondaryVariant: secondary,
+        secondaryContainer: secondary,
         surface: card,
         background: background,
         error: error,
@@ -112,6 +112,9 @@ abstract class NordColorRoles {
   Color get hover;
 
   Color get highlight;
+
+  /// [AppBarTheme]'s color
+  Color get appBarColor;
 
   /// The main color used for buttons ([TextButton], [ElevatedButton],
   /// [OutlinedButton]).

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_nord_theme/flutter_nord_theme.dart';
+import 'package:safenotes_nord_theme/safenotes_nord_theme.dart';
 
 final List<Widget> buttons = [
   TextButton(
@@ -17,7 +17,7 @@ final List<Widget> buttons = [
   ElevatedButton(
     child: Text('Custom button'),
     style: ElevatedButton.styleFrom(
-      primary: NordColors.aurora.red,
+      backgroundColor: NordColors.aurora.red,
     ),
     onPressed: () => null,
   ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_nord_theme/flutter_nord_theme.dart';
+import 'package:safenotes_nord_theme/safenotes_nord_theme.dart';
 import 'roles.dart';
 
 class NordDarkColorRoles extends NordColorRoles {
@@ -58,6 +58,9 @@ class NordDarkColorRoles extends NordColorRoles {
   /// The same as [hover].
   @override
   final Color selectedRow = NordColors.$3.withAlpha(50);
+
+  @override
+  final Color appBarColor = NordColors.polarNight.lighter;
 
   /// Flutter dark theme's is [Colors.white70] (i.e. `0xB3ffffff`).
   @override

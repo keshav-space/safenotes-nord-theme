@@ -1,4 +1,4 @@
-import 'package:flutter_nord_theme/src/colors/colors.dart';
+import 'package:safenotes_nord_theme/safenotes_nord_theme.dart';
 
 class NordPolarNight {
   const NordPolarNight();

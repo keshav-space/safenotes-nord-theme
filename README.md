@@ -1,18 +1,23 @@
-# flutter_nord_theme
+# safenotes_nord_theme
 
 An arctic, north-bluish theme for Flutter, based on the
 [Nord theme](https://www.nordtheme.com/).
 **Warning**: This is not an official theme (not made by Arctic Ice Studio).
+
+> [!NOTE]
+> This is a maintained fork of https://github.com/Firefnix/flutter-nord-theme used by the `safenotes` project https://github.com/keshav-space/safenotes.
 
 ![A few widgets](example/Demo.png)
 
 ## Installing
 
 First, add this package to your Flutter project (see also Installation).
-In your `pubspec.yaml`, add `flutter_nord_theme` as a dependency:
+In your `pubspec.yaml`, add `safenotes_nord_theme` as a dependency:
 ```yaml
-dependencies:
-  flutter_nord_theme: <lastest version>
+safenotes_nord_theme:
+  git:
+    url: https://github.com/keshav-space/safenotes-nord-theme.git
+    ref: main
 ```
 
 ## How to use
